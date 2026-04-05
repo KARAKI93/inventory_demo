@@ -4,7 +4,7 @@ env:
   variables:
     AWS_DEFAULT_REGION: us-east-2
     IMAGE_REPO_NAME: inventory-app
-    CONTAINER_NAME: inventory-app
+    CONTAINER_NAME: DeployToEcsFargateContainerName
 
 phases:
   pre_build:
